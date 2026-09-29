@@ -1,1 +1,74 @@
-H
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background: #0d1117; color: #c9d1d9; }
+
+header {
+  background: #161b22;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 3px solid #f97316;
+}
+
+header h1 { font-size: 2.5rem; color: #f97316; margin-bottom: 10px; }
+header p { font-size: 1.1rem; color: #8b949e; }
+header a { color: #f97316; text-decoration: none; }
+
+section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+
+h2 { color: #f97316; border-bottom: 2px solid #f97316; padding-bottom: 8px; margin-bottom: 20px; }
+
+.sobre-mi p { line-height: 1.8; color: #c9d1d9; }
+
+.skills { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.skill {
+  background: #161b22;
+  border: 1px solid #f97316;
+  color: #f97316;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.proyectos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+.proyecto {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  transition: border-color 0.3s;
+}
+
+.proyecto:hover { border-color: #f97316; }
+.proyecto h3 { color: #f97316; margin-bottom: 10px; }
+.proyecto p { color: #8b949e; font-size: 0.9rem; line-height: 1.6; }
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #f97316;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.logro {
+  background: #161b22;
+  border-left: 4px solid #f97316;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+
+.logro h3 { color: #f97316; margin-bottom: 6px; }
+.logro p { color: #8b949e; font-size: 0.9rem; line-height: 1.6; }
+
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  background: #161b22;
+  border-top: 3px solid #f97316;
+  color: #8b949e;
+}
+
+footer a { color: #f97316; text-decoration: none; }
